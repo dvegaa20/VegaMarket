@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
+import Link from "next/link";
 
 export default function Cta() {
   const t = useTranslations("cta");
@@ -50,13 +51,15 @@ export default function Cta() {
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.3 }}
           >
-            <Button
-              size="lg"
-              className="rounded-full bg-gradient-to-r from-primary to-violet-500 hover:from-primary/90 hover:to-violet-500/90 text-white shadow-lg shadow-primary/20 group"
-            >
-              {t("primaryCta")}
-              <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
-            </Button>
+            <Link href="/templates">
+              <Button
+                size="lg"
+                className="rounded-full bg-gradient-to-r from-primary to-violet-500 hover:from-primary/90 hover:to-violet-500/90 text-white shadow-lg shadow-primary/20 group"
+              >
+                {t("primaryCta")}
+                <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+              </Button>
+            </Link>
             <Button
               size="lg"
               variant="outline"
