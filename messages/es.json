@@ -1,0 +1,206 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "features": "Características",
+    "showcase": "Ejemplos",
+    "testimonials": "Testimonios",
+    "pricing": "Precios",
+    "contact": "Contacto",
+    "button": "Empezar"
+  },
+  "modeToggle": {
+    "light": "Claro",
+    "dark": "Oscuro",
+    "system": "Sistema"
+  },
+  "hero": {
+    "introducing": "Presentando",
+    "title": "Transforme su negocio con",
+    "title2": "",
+    "subtitle": "Eleve su negocio con nuestra plataforma de vanguardia que combina información impulsada por IA, integraciones perfectas y herramientas intuitivas diseñadas para la empresa moderna.",
+    "primaryCta": "Empezar",
+    "secondaryCta": "Ver Demo"
+  },
+  "clients": {
+    "title": "Confiado por empresas líderes en la industria en todo el mundo"
+  },
+  "features": {
+    "features": "Características",
+    "title": "Todo lo que necesita para tener éxito",
+    "subtitle": "Nuestra completa suite de características está diseñada para ayudar a su negocio a prosperar en el competitivo panorama actual.",
+    "tab1": "Características principales",
+    "tab2": "Analítica",
+    "tab3": "Automatización",
+    "tab4": "Integración",
+
+    "sec1feat1Title": "Rendimiento ultrarrápido",
+    "sec1feat1Desc": "Experimente una velocidad y eficiencia incomparables con nuestra arquitectura de plataforma optimizada.",
+    "sec1feat2Title": "Seguridad de grado empresarial",
+    "sec1feat2Desc": "Descanse tranquilo con nuestras sólidas medidas de seguridad, incluido el cifrado de extremo a extremo y los controles de cumplimiento.",
+    "sec1feat3Title": "Arquitectura escalable",
+    "sec1feat3Desc": "Nuestra plataforma crece con su negocio, manejando cargas incrementadas sin degradación del rendimiento.",
+
+    "sec2feat1Title": "Analítica avanzada",
+    "sec2feat1Desc": "Obtenga información profunda con nuestra completa suite de analítica que presenta paneles personalizables.",
+    "sec2feat2Title": "Perspectivas predictivas",
+    "sec2feat2Desc": "Aproveche las predicciones impulsadas por IA para anticipar tendencias del mercado y comportamiento del cliente.",
+    "sec2feat3Title": "Recomendaciones inteligentes",
+    "sec2feat3Desc": "Reciba sugerencias basadas en datos para optimizar las operaciones y la estrategia de su negocio.",
+
+    "sec3feat1Title": "Automatización de flujos de trabajo",
+    "sec3feat1Desc": "Optimice sus procesos comerciales y aumente la eficiencia con nuestras herramientas de automatización de flujos de trabajo.",
+    "sec3feat2Title": "Programación de tareas",
+    "sec3feat2Desc": "Automatice tareas rutinarias y programe flujos de trabajo para ahorrar tiempo y reducir el esfuerzo manual.",
+    "sec3feat3Title": "Asistencia impulsada por IA",
+    "sec3feat3Desc": "Permita que nuestros asistentes de IA manejen tareas rutinarias y brinden soporte inteligente cuando lo necesite.",
+
+    "sec4feat1Title": "Conectividad perfecta",
+    "sec4feat1Desc": "Conéctese con cientos de servicios y plataformas populares a través de nuestro extenso ecosistema de API.",
+    "sec4feat2Title": "Compatibilidad multiplataforma",
+    "sec4feat2Desc": "Acceda a sus datos y herramientas desde cualquier dispositivo con nuestro diseño receptivo y multiplataforma.",
+    "sec4feat3Title": "Espacio de trabajo colaborativo",
+    "sec4feat3Desc": "Fomente el trabajo en equipo con herramientas de colaboración en tiempo real y espacios de trabajo compartidos para todo su equipo."
+  },
+  "showcase": {
+    "showcase": "¿Por qué escoger Quantum?",
+    "title": "Transforme su flujo de trabajo con nuestra plataforma intuitiva",
+    "subtitle": "Nuestra plataforma está diseñada para ayudarte a trabajar de manera más inteligente, no más difícil. Con herramientas intuitivas y funciones poderosas, puedes centrarte en lo que más importa: hacer crecer tu negocio.",
+    "benefit1": "Aumenta la productividad hasta en un 40%",
+    "benefit2": "Reduce los costos operativos en un 25%",
+    "benefit3": "Mejora los puntajes de satisfacción del cliente",
+    "benefit4": "Toma decisiones basadas en datos",
+    "benefit5": "Optimiza tus procesos comerciales",
+    "learnMore": "Conoce más",
+    "imageDesc1": "Crecimiento de ingresos",
+    "imageDesc2": "Satisfacción de usuario"
+  },
+  "stats": {
+    "firstStat": "Clientes empresariales",
+    "secondStat": "Garantía de tiempo de actividad",
+    "thirdStat": "Usuarios en todo el mundo",
+    "fourthStat": "Soporte disponible"
+  },
+  "testimonials": {
+    "testimonials": "Testimonios",
+    "title": "Lo que nuestros clientes dicen",
+    "subtitle": "No solo tomes nuestra palabra. Aquí tienes lo que dicen nuestros clientes sobre trabajar con nosotros.",
+    "items": [
+      {
+        "quote": "Quantum ha transformado la forma en que operamos. El diseño intuitivo de la plataforma y sus potentes funciones nos han ayudado a optimizar nuestros procesos y hacer crecer nuestro negocio exponencialmente.",
+        "author": "Sarah Johnson",
+        "role": "CEO, TechStart Inc."
+      },
+      {
+        "quote": "El equipo de Quantum realmente entiende nuestra industria y nos ha brindado una guía invaluable mientras escalamos nuestras operaciones a nivel global. Su plataforma es un cambio radical.",
+        "author": "Michael Chen",
+        "role": "COO, Global Solutions"
+      },
+      {
+        "quote": "He trabajado con muchos proveedores de servicios a lo largo de los años, pero ninguno ha entregado el nivel de resultados y retorno de inversión que Quantum ha logrado. Su plataforma es excepcional.",
+        "author": "Jessica Williams",
+        "role": "Marketing Director, Retail Giant"
+      },
+      {
+        "quote": "Implementar la solución de Quantum ha sido la mejor decisión que hemos tomado este año. Nuestra productividad ha aumentado un 40% y nuestros puntajes de satisfacción del cliente están en su punto más alto.",
+        "author": "David Rodriguez",
+        "role": "CTO, Innovation Labs"
+      }
+    ]
+  },
+  "pricing": {
+    "pricing": "Precios",
+    "title": "Precios simples y transparentes",
+    "subtitle": "Elije el plan que sea adecuado para tu negocio. Todos los planes incluyen una prueba gratuita de 14 días.",
+    "monthly": "Mensual",
+    "annual": "Anual",
+    "save": "Ahorra",
+    "popularLabel": "Más Popular",
+    "plans": [
+      {
+        "name": "Starter",
+        "description": "Perfecto para pequeñas empresas que recién comienzan.",
+        "feature1": "Hasta 5 miembros del equipo",
+        "feature2": "20GB de almacenamiento",
+        "feature3": "Analítica básica",
+        "feature4": "Soporte 24/7 por correo electrónico",
+        "feature5": "Acceso a la API",
+        "cta": "Empezar"
+      },
+      {
+        "name": "Professional",
+        "description": "Ideal para negocios en crecimiento con necesidades específicas.",
+        "feature1": "Hasta 20 miembros del equipo",
+        "feature2": "100GB de almacenamiento",
+        "feature3": "Análisis avanzados",
+        "feature4": "Soporte prioritario 24/7",
+        "feature5": "Acceso a la API",
+        "feature6": "Integraciones personalizadas",
+        "feature7": "Gestor de cuenta dedicado",
+        "cta": "Prueba Gratuita"
+      },
+      {
+        "name": "Enterprise",
+        "description": "Para grandes organizaciones con requisitos complejos.",
+        "price": "$999",
+        "feature1": "Miembros del equipo ilimitados",
+        "feature2": "Almacenamiento ilimitado",
+        "feature3": "Análisis personalizados",
+        "feature4": "Soporte VIP 24/7",
+        "feature5": "Acceso avanzado a la API",
+        "feature6": "Integraciones personalizadas",
+        "feature7": "Gestor de cuenta dedicado",
+        "feature8": "Capacitación en sitio",
+        "feature9": "Desarrollo a medida",
+        "cta": "Contactar a Ventas"
+      }
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para transformar tu negocio?",
+    "subtitle": "Únete a miles de empresas que ya utilizan Quantum para optimizar sus operaciones, aumentar la productividad y acelerar su crecimiento.",
+    "primaryCta": "Comenzar",
+    "secondaryCta": "Agendar una Demo",
+    "disclaimer": "No se requiere tarjeta de crédito. Prueba gratuita de 14 días. Cancela en cualquier momento."
+  },
+  "contact": {
+    "contact": "Contáctanos",
+    "title": "Ponte en contacto",
+    "subtitle": "¿Tienes preguntas o estás listo para comenzar? Comunícate con nuestro equipo hoy mismo.",
+    "formTitle": "Hablemos sobre cómo podemos ayudar a tu negocio",
+    "formSubtitle": "Nuestro equipo de expertos está listo para responder tus preguntas y ayudarte a encontrar la solución perfecta para las necesidades de tu negocio.",
+    "visit": "Visita nuestra oficina",
+    "email": "Envíanos un correo",
+    "call": "Llámanos",
+    "sendMessageTitle": "Envíanos un mensaje",
+    "sendMessageSubtitle": "Te responderemos lo antes posible.",
+    "nameLabel": "Nombre",
+    "namePlaceholder": "Ingresa tu nombre",
+    "emailLabel": "Correo electrónico",
+    "emailPlaceholder": "Ingresa tu correo electrónico",
+    "subjectLabel": "Asunto",
+    "subjectPlaceholder": "¿De qué se trata?",
+    "messageLabel": "Mensaje",
+    "messagePlaceholder": "Cuéntanos en qué necesitas ayuda...",
+    "submit": "Enviar mensaje",
+    "submitting": "Enviando...",
+    "errorMessage": "Algo salió mal. Por favor, inténtalo de nuevo.",
+    "successTitle": "¡Mensaje enviado!",
+    "successMessage": "Gracias por contactarnos. Te responderemos en breve.",
+    "sendAnother": "Enviar otro mensaje"
+  },
+  "footer": {
+    "subtitle": "Quantum ayuda a las empresas visionarias a transformarse, innovar y liderar en sus industrias. Nuestras soluciones de vanguardia impulsan el crecimiento y crean ventajas competitivas duraderas.",
+    "company": "Empresa",
+    "about": "Acerca de nosotros",
+    "team": "Nuestro equipo",
+    "careers": "Carreras",
+    "contact": "Contacto",
+    "subscribe": "Suscríbete",
+    "subscribeDesc": "Mantente actualizado con nuestras últimas noticias y ofertas.",
+    "labelPlaceholder": "Ingresa tu correo",
+    "rights": "Todos los derechos reservados.",
+    "privacy": "Política de privacidad",
+    "terms": "Términos de servicio",
+    "cookies": "Política de cookies"
+  }
+}

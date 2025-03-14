@@ -1,0 +1,207 @@
+{
+  "nav": {
+    "home": "Home",
+    "features": "Features",
+    "showcase": "Showcase",
+    "testimonials": "Testimonials",
+    "pricing": "Pricing",
+    "contact": "Contact",
+    "button": "Get Started"
+  },
+  "modeToggle": {
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  },
+  "hero": {
+    "introducing": "Introducing",
+    "title": "Transform Your Business with",
+    "title2": "Solutions",
+    "subtitle": "Elevate your business with our cutting-edge platform that combines AI-powered insights, seamless integrations, and intuitive tools designed for the modern enterprise.",
+    "primaryCta": "Get Started",
+    "secondaryCta": "Watch Demo"
+  },
+  "clients": {
+    "title": "Trusted by industry-leading companies worldwide"
+  },
+  "features": {
+    "features": "Features",
+    "title": "Everything you need to succeed",
+    "subtitle": "Our comprehensive suite of features is designed to help your business thrive in today's competitive landscape.",
+    "tab1": "Core Features",
+    "tab2": "Analytics",
+    "tab3": "Automation",
+    "tab4": "Integration",
+
+    "sec1feat1Title": "Lightning Fast Performance",
+    "sec1feat1Desc": "Experience unparalleled speed and efficiency with our optimized platform architecture.",
+    "sec1feat2Title": "Enterprise-Grade Security",
+    "sec1feat2Desc": "Rest easy with our robust security measures, including end-to-end encryption and compliance controls.",
+    "sec1feat3Title": "Scalable Architecture",
+    "sec1feat3Desc": "Our platform grows with your business, handling increased loads without performance degradation.",
+
+    "sec2feat1Title": "Advanced Analytics",
+    "sec2feat1Desc": "Gain deep insights with our comprehensive analytics suite featuring customizable dashboards.",
+    "sec2feat2Title": "Predictive Insights",
+    "sec2feat2Desc": "Leverage AI-powered predictions to anticipate market trends and customer behavior.",
+    "sec2feat3Title": "Intelligent Recommendations",
+    "sec2feat3Desc": "Receive data-driven suggestions to optimize your business operations and strategy.",
+
+    "sec3feat1Title": "Workflow Automation",
+    "sec3feat1Desc": "Streamline processes with customizable automation workflows that save time and reduce errors.",
+    "sec3feat2Title": "Smart Scheduling",
+    "sec3feat2Desc": "Automate appointment booking and task scheduling with intelligent calendar management.",
+    "sec3feat3Title": "AI-Powered Assistance",
+    "sec3feat3Desc": "Let our AI assistants handle routine tasks and provide intelligent support when you need it.",
+
+    "sec4feat1Title": "Seamless Connectivity",
+    "sec4feat1Desc": "Connect with hundreds of popular services and platforms through our extensive API ecosystem.",
+    "sec4feat2Title": "Cross-Platform Compatibility",
+    "sec4feat2Desc": "Access your data and tools from any device with our responsive, cross-platform design.",
+    "sec4feat3Title": "Collaborative Workspace",
+    "sec4feat3Desc": "Foster teamwork with real-time collaboration tools and shared workspaces for your entire team."
+  },
+  "showcase": {
+    "showcase": "Why Choose Quantum?",
+    "title": "Transform your workflow with our intuitive platform",
+    "subtitle": "Our platform is designed to help you work smarter, not harder. With intuitive tools and powerful features, you can focus on what matters most - growing your business.",
+    "benefit1": "Increase productivity by up to 40%",
+    "benefit2": "Reduce operational costs by 25%",
+    "benefit3": "Improve customer satisfaction scores",
+    "benefit4": "Make data-driven decisions",
+    "benefit5": "Streamline your business processes",
+    "learnMore": "Learn More",
+    "imageDesc1": "Revenue Growth",
+    "imageDesc2": "User Satisfaction"
+  },
+  "stats": {
+    "firstStat": "Enterprise Clients",
+    "secondStat": "Uptime Guarantee",
+    "thirdStat": "Users Worldwide",
+    "fourthStat": "Support Available"
+  },
+  "testimonials": {
+    "testimonials": "Testimonials",
+    "title": "What Our Clients Say",
+    "subtitle": "Don't just take our word for it. Here's what our clients have to say about working with us.",
+    "items": [
+      {
+        "quote": "Quantum has transformed the way we operate. The platform's intuitive design and powerful features have helped us streamline our processes and grow our business exponentially.",
+        "author": "Sarah Johnson",
+        "role": "CEO, TechStart Inc."
+      },
+      {
+        "quote": "The team at Quantum truly understands our industry and has provided invaluable guidance as we've scaled our operations globally. Their platform is a game-changer.",
+        "author": "Michael Chen",
+        "role": "COO, Global Solutions"
+      },
+      {
+        "quote": "I've worked with many service providers over the years, but none have delivered the level of results and ROI that Quantum has. Their platform is exceptional.",
+        "author": "Jessica Williams",
+        "role": "Marketing Director, Retail Giant"
+      },
+      {
+        "quote": "Implementing Quantum's solution has been the best decision we've made this year. Our productivity has increased by 40% and our customer satisfaction scores are at an all-time high.",
+        "author": "David Rodriguez",
+        "role": "CTO, Innovation Labs"
+      }
+    ]
+  },
+  "pricing": {
+    "pricing": "Pricing",
+    "title": "Simple, Transparent Pricing",
+    "subtitle": "Choose the plan that's right for your business. All plans include a 14-day free trial.",
+    "monthly": "Monthly",
+    "annual": "Annual",
+    "save": "Save",
+    "popularLabel": "Most Popular",
+    "plans": [
+      {
+        "name": "Starter",
+        "description": "Perfect for small businesses just getting started.",
+        "feature1": "Up to 5 team members",
+        "feature2": "20GB storage",
+        "feature3": "Basic analytics",
+        "feature4": "24/7 email support",
+        "feature5": "API access",
+        "cta": "Get Started"
+      },
+      {
+        "name": "Professional",
+        "description": "Ideal for growing businesses with specific needs.",
+        "price": "$299",
+        "feature1": "Up to 20 team members",
+        "feature2": "100GB storage",
+        "feature3": "Advanced analytics",
+        "feature4": "24/7 priority support",
+        "feature5": "API access",
+        "feature6": "Custom integrations",
+        "feature7": "Dedicated account manager",
+        "cta": "Start Free Trial"
+      },
+      {
+        "name": "Enterprise",
+        "description": "For large organizations with complex requirements.",
+        "price": "$999",
+        "feature1": "Unlimited team members",
+        "feature2": "Unlimited storage",
+        "feature3": "Custom analytics",
+        "feature4": "24/7 VIP support",
+        "feature5": "Advanced API access",
+        "feature6": "Custom integrations",
+        "feature7": "Dedicated account manager",
+        "feature8": "On-site training",
+        "feature9": "Custom development",
+        "cta": "Contact Sales"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready to transform your business?",
+    "subtitle": "Join thousands of businesses that are already using Quantum to streamline their operations, increase productivity, and drive growth.",
+    "primaryCta": "Get Started",
+    "secondaryCta": "Schedule a Demo",
+    "disclaimer": "No credit card required. 14-day free trial. Cancel anytime."
+  },
+  "contact": {
+    "contact": "Contact us",
+    "title": "Get in Touch",
+    "subtitle": "Have questions or ready to get started? Reach out to our team today.",
+    "formTitle": "Let's discuss how we can help your business",
+    "formSubtitle": "Our team of experts is ready to answer your questions and help you find the perfect solution for your business needs.",
+    "visit": "Visit our office",
+    "email": "Email us",
+    "call": "Call us",
+    "sendMessageTitle": "Send us a message",
+    "sendMessageSubtitle": "We'll get back to you as soon as possible.",
+    "nameLabel": "Name",
+    "namePlaceholder": "Enter your name",
+    "emailLabel": "Email",
+    "emailPlaceholder": "Enter your email",
+    "subjectLabel": "Subject",
+    "subjectPlaceholder": "What's this about?",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Tell us what you need help with...",
+    "submit": "Send Message",
+    "submitting": "Sending...",
+    "errorMessage": "Something went wrong. Please try again.",
+    "successTitle": "Message Sent!",
+    "successMessage": "Thank you for reaching out. We'll get back to you shortly.",
+    "sendAnother": "Send Another Message"
+  },
+  "footer": {
+    "subtitle": "Quantum helps forward-thinking businesses transform, innovate, and lead in their industries. Our cutting-edge solutions drive growth and create lasting competitive advantages.",
+    "company": "Company",
+    "about": "About Us",
+    "team": "Our Team",
+    "careers": "Careers",
+    "contact": "Contact",
+    "subscribe": "Subscribe",
+    "subscribeDesc": "Stay updated with our latest news and offers.",
+    "labelPlaceholder": "Enter your email",
+    "rights": "All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "cookies": "Cookie Policy"
+  }
+}
