@@ -14,7 +14,7 @@ export default function Stats() {
   ];
 
   return (
-    <section className="w-full py-12 md:py-16 lg:py-20 overflow-hidden relative">
+    <section className="w-full py-12 md:py-16 lg:py-20 bg-muted/30 overflow-hidden relative">
       <div className="absolute inset-0 -z-10 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary/5 via-transparent to-transparent opacity-60"></div>
 
       <div className="container px-4 md:px-6">

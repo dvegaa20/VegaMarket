@@ -24,7 +24,7 @@ export default function Showcase() {
     <section
       id="showcase"
       ref={containerRef}
-      className="w-full py-20 md:py-28 lg:py-36 bg-muted/30 overflow-hidden relative"
+      className="w-full py-20 md:py-28 lg:py-36 overflow-hidden relative"
     >
       {/* Background decorations */}
       <div className="absolute inset-0 -z-10 overflow-hidden">

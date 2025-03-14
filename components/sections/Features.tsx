@@ -18,6 +18,7 @@ import {
   Workflow,
 } from "lucide-react";
 import { useTranslations } from "next-intl";
+import { GlowingEffect } from "../ui/glowing-effect";
 
 export default function Features() {
   const t = useTranslations("features");
@@ -108,7 +109,7 @@ export default function Features() {
   return (
     <section
       id="features"
-      className="w-full py-20 md:py-28 lg:py-36 overflow-hidden relative"
+      className="w-full py-20 md:py-28 lg:py-36 bg-muted/30 overflow-hidden relative"
     >
       {/* Background decorations */}
       <div className="absolute inset-0 -z-10 overflow-hidden">
@@ -177,6 +178,13 @@ export default function Features() {
                     transition={{ duration: 0.5, delay: index * 0.1 }}
                   >
                     <Card className="h-full border border-border/50 bg-background/50 backdrop-blur-sm hover:border-primary/50 hover:shadow-md transition-all duration-300">
+                      <GlowingEffect
+                        spread={100}
+                        glow={true}
+                        disabled={false}
+                        proximity={64}
+                        inactiveZone={0.01}
+                      />
                       <CardContent className="p-6">
                         <div className="mb-4 rounded-full bg-primary/10 p-3 w-fit">
                           {feature.icon}
