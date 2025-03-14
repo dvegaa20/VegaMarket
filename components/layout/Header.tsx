@@ -18,6 +18,7 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/nextjs";
+import Image from "next/image";
 
 export default function Header() {
   const t = useTranslations("nav");
@@ -68,10 +69,15 @@ export default function Header() {
             <div className="absolute -inset-1 rounded-full bg-gradient-to-r from-primary/50 to-violet-500/50 blur opacity-70"></div>
             <div className="relative flex h-10 w-10 items-center justify-center rounded-full bg-background shadow-lg">
               <span className="text-xl font-bold bg-gradient-to-r from-primary to-violet-500 bg-clip-text text-transparent">
-                VT
+                <Image
+                  src="/logo.svg"
+                  alt="VTemp Logo"
+                  width={20}
+                  height={20}
+                />
               </span>
             </div>
-            <span className="ml-2 text-xl font-bold">VegTemplates</span>
+            <span className="ml-2 text-xl font-bold">VTemplates</span>
           </motion.div>
         </Link>
 
