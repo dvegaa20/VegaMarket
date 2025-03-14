@@ -1,11 +1,10 @@
 import type { Metadata } from "next";
+import { ClerkProvider } from "@clerk/nextjs";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import { Sora } from "next/font/google";
-import Header from "@/components/layout/Header";
-import Footer from "@/components/layout/Footer";
 import { ThemeProvider } from "@/components/ThemeProvider";
 import { cn } from "@/lib/utils";
 import "./globals.css";
@@ -35,28 +34,28 @@ export default async function RootLayout({
   const messages = await getMessages();
 
   return (
-    <html lang={locale}>
-      <body
-        className={cn(
-          sora.variable,
-          "font-sans antialiased overflow-x-hidden selection:bg-primary/20 selection:text-primary"
-        )}
-      >
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="system"
-          enableSystem
-          disableTransitionOnChange
+    <ClerkProvider>
+      <html lang={locale}>
+        <body
+          className={cn(
+            sora.variable,
+            "font-sans antialiased overflow-x-hidden selection:bg-primary/20 selection:text-primary"
+          )}
         >
-          <NextIntlClientProvider messages={messages}>
-            <div className="flex min-h-screen flex-col overflow-x-hidden bg-dot-pattern">
-              <Header />
-              {children}
-              <Footer />
-            </div>
-          </NextIntlClientProvider>
-        </ThemeProvider>
-      </body>
-    </html>
+          <ThemeProvider
+            attribute="class"
+            defaultTheme="system"
+            enableSystem
+            disableTransitionOnChange
+          >
+            <NextIntlClientProvider messages={messages}>
+              <div className="flex min-h-screen flex-col overflow-x-hidden bg-dot-pattern">
+                {children}
+              </div>
+            </NextIntlClientProvider>
+          </ThemeProvider>
+        </body>
+      </html>
+    </ClerkProvider>
   );
 }
