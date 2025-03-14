@@ -39,15 +39,18 @@ export default function Header() {
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 
   const dropdownNavItems = [
-    { href: "#home", label: t("home") },
-    { href: "#features", label: t("features") },
-    { href: "#showcase", label: t("showcase") },
-    { href: "#testimonials", label: t("testimonials") },
-    { href: "#pricing", label: t("pricing") },
-    { href: "#contact", label: t("contact") },
+    { href: "/#home", label: t("home") },
+    { href: "/#features", label: t("features") },
+    { href: "/#showcase", label: t("showcase") },
+    { href: "/#testimonials", label: t("testimonials") },
+    { href: "/#pricing", label: t("pricing") },
+    { href: "/#contact", label: t("contact") },
   ];
 
-  const pagesItems = { href: "/templates", label: "Templates" };
+  const pagesItems = [
+    { href: "/templates", label: "Templates" },
+    { href: "/categories", label: "Categories" },
+  ];
 
   return (
     <header
@@ -124,27 +127,28 @@ export default function Header() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.3, delay: 0.05 }}
           >
-            <Link
-              href={pagesItems.href}
-              className={cn(
-                "relative px-4 py-2 text-sm font-medium transition-colors rounded-full hover:text-primary",
-                pathname === pagesItems.href
-                  ? "text-primary"
-                  : "text-foreground/80"
-              )}
-              passHref
-            >
-              {pagesItems.label}
-              {pathname === pagesItems.href && (
-                <motion.span
-                  layoutId="nav-indicator"
-                  className="absolute bottom-0 left-0 right-0 h-1 bg-primary rounded-full"
-                  initial={{ opacity: 0 }}
-                  animate={{ opacity: 1 }}
-                  transition={{ duration: 0.3 }}
-                />
-              )}
-            </Link>
+            {pagesItems.map((item) => (
+              <Link
+                href={item.href}
+                className={cn(
+                  "relative px-4 py-2 text-sm font-medium transition-colors rounded-full hover:text-primary",
+                  pathname === item.href ? "text-primary" : "text-foreground/80"
+                )}
+                passHref
+                key={item.href}
+              >
+                {item.label}
+                {pathname === item.href && (
+                  <motion.span
+                    layoutId="nav-indicator"
+                    className="absolute bottom-0 left-0 right-0 h-1 bg-primary rounded-full"
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    transition={{ duration: 0.3 }}
+                  />
+                )}
+              </Link>
+            ))}
           </motion.div>
 
           <div className="flex items-center gap-2 ml-4 pl-4 border-l">
@@ -239,13 +243,15 @@ export default function Header() {
                     delay: dropdownNavItems.length * 0.05,
                   }}
                 >
-                  <Link
-                    href={pagesItems.href}
-                    className="text-lg font-medium transition-colors hover:text-primary border-b border-border pb-2 block"
-                    onClick={() => setIsMenuOpen(false)}
-                  >
-                    {pagesItems.label}
-                  </Link>
+                  {pagesItems.map((item) => (
+                    <Link
+                      href={item.href}
+                      className="text-lg font-medium transition-colors hover:text-primary border-b border-border pb-2 block"
+                      onClick={() => setIsMenuOpen(false)}
+                    >
+                      {item.label}
+                    </Link>
+                  ))}
                 </motion.div>
 
                 <motion.div
@@ -257,13 +263,19 @@ export default function Header() {
                   }}
                   className="pt-4"
                 >
-                  <SignInButton />
-                  <Button
-                    size="lg"
-                    className="w-full rounded-full bg-gradient-to-r from-primary to-violet-500 hover:from-primary/90 hover:to-violet-500/90 text-white shadow-md shadow-primary/20"
-                  >
-                    {t("button")}
-                  </Button>
+                  <SignedOut>
+                    <SignInButton mode="modal" forceRedirectUrl="/templates">
+                      <Button
+                        size="sm"
+                        className="rounded-full bg-gradient-to-r from-primary to-violet-500 hover:from-primary/90 hover:to-violet-500/90 text-white shadow-md shadow-primary/20"
+                      >
+                        {t("button")}
+                      </Button>
+                    </SignInButton>
+                  </SignedOut>
+                  <SignedIn>
+                    <UserButton />
+                  </SignedIn>
                 </motion.div>
               </nav>
               <div className="mt-auto p-6 text-center text-sm text-muted-foreground">
