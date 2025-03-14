@@ -15,6 +15,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Mail, MapPin, Phone, CheckCircle, ArrowRight } from "lucide-react";
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
+import { GlowingEffect } from "../ui/glowing-effect";
 
 export default function Contact() {
   const t = useTranslations("contact");
@@ -175,6 +176,13 @@ export default function Contact() {
             transition={{ duration: 0.5, delay: 0.2 }}
           >
             <Card className="border border-primary/20 bg-background/50 backdrop-blur-sm shadow-xl">
+              <GlowingEffect
+                spread={100}
+                glow={true}
+                disabled={false}
+                proximity={64}
+                inactiveZone={0.01}
+              />
               <CardHeader>
                 <CardTitle>{t("sendMessageTitle")}</CardTitle>
                 <CardDescription>{t("sendMessageSubtitle")}</CardDescription>
