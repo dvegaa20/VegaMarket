@@ -24,7 +24,7 @@ export default function TemplateCard({ template }: TemplateCardProps) {
     >
       <div className="relative aspect-[16/9] overflow-hidden">
         <Image
-          src={template.thumbnail || "/placeholder.svg?height=450&width=800"}
+          src={template.thumbnail}
           alt={template.title}
           width={800}
           height={450}
@@ -40,12 +40,12 @@ export default function TemplateCard({ template }: TemplateCardProps) {
             transition: "transform 0.3s ease, opacity 0.3s ease",
           }}
         >
-          <Link href={`/preview/${template.id}`}>
+          <a href={template.demoUrl} target="_blank" rel="noreferrer">
             <Button size="sm" variant="secondary" className="rounded-full">
               <Eye className="mr-2 h-4 w-4" />
               Preview
             </Button>
-          </Link>
+          </a>
           <Link href={`/templates/${template.id}`}>
             <Button size="sm" className="rounded-full">
               <ShoppingCart className="mr-2 h-4 w-4" />

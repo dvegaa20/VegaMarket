@@ -78,7 +78,7 @@ export default function FeaturedTemplate({ templates }: FeaturedTemplateProps) {
               }}
               transition={{ duration: 0.7, ease: "easeInOut" }}
             >
-              <div className="grid grid-cols-1 md:grid-cols-2 h-full">
+              <div className="grid grid-cols-1 md:grid-cols-[1fr_1.3fr] h-full px-8">
                 <div className="flex flex-col justify-center p-6 md:p-10 lg:p-16">
                   <Badge className="w-fit mb-4">{template.category}</Badge>
                   <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4">
@@ -124,7 +124,6 @@ export default function FeaturedTemplate({ templates }: FeaturedTemplateProps) {
                     </Link>
                   </div>
                 </div>
-
                 <div className="relative hidden md:block">
                   <div className="absolute inset-0 flex items-center justify-center">
                     <Image
