@@ -14,7 +14,8 @@ declare interface Template {
   reviews: number;
   sales: number;
   thumbnail: string;
-  demoUrl?: string;
+  images: string[];
+  demoUrl: string;
   featured: boolean;
   isNew: boolean;
 }
