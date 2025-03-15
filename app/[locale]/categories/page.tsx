@@ -67,12 +67,7 @@ export default function CategoriesPage() {
                         style={{ transitionDelay: `${i * 50}ms` }}
                       >
                         <Image
-                          src={
-                            template.thumbnail ||
-                            `/placeholder.svg?height=56&width=56&text=${
-                              template.title.charAt(0) || "/placeholder.svg"
-                            }`
-                          }
+                          src={template.thumbnail}
                           alt={template.title}
                           width={56}
                           height={56}

@@ -57,7 +57,7 @@ export default function CategoryPage({ params }: CategoryPageProps) {
 
   return (
     <div className="container px-4 py-12 md:px-6 md:py-24">
-      <div className="flex flex-col items-start gap-4 md:flex-row md:justify-between mb-8">
+      <div className="flex flex-col items-start gap-4 md:flex-row md:justify-between mb-8 py-8">
         <div>
           <div className="flex items-center gap-2 mb-2">
             <Link href="/categories">
