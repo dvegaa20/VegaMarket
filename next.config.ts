@@ -10,6 +10,9 @@ const nextConfig: NextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
+  images: {
+    domains: ["drive.google.com"],
+  },
 };
 
 export default withNextIntl(nextConfig);
